@@ -1,0 +1,5 @@
+-z -q -c -o"./Debug/tone.out" -x -i"c:/ti/c6000/dsk6713/lib" -i"c:/ti/c6000/bios/lib" -i"c:/ti/C6000/dsk6713/lib" -i"c:/ti/c6000/rtdx/lib" -i"c:/ti/c6000/cgtools/lib" -l"dsk6713bsl.lib"
+"C:\ti\examples\dsk6713\bsl\tone\Debug\tone.obj"
+"C:\ti\examples\dsk6713\bsl\tone\Debug\tonecfg.obj"
+"C:\ti\examples\dsk6713\bsl\tone\Debug\tonecfg_c.obj"
+"C:\ti\examples\dsk6713\bsl\tone\tonecfg.cmd"

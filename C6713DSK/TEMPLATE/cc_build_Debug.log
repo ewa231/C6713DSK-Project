@@ -1,0 +1,10 @@
+----------------------------  template.pjt - Debug  ----------------------------
+[template.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -q -fr"C:/ti/MyProjects/Dawicki/TEMPLATE/Debug" -i"." -i"C:/CCStudio_v3.1/c6000/dsk6713/include" -d"_DEBUG" -ml3 -mv6710 -@"Debug.lkf" "template.c"
+"template.c", line 325: warning: last line of file ends without a newline
+"template.c", line 325: warning: missing return statement at end of non-void function "filtration"
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 2 Warnings, 0 Remarks.

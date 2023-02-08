@@ -1,0 +1,22 @@
+----------------------------  template.pjt - Debug  ----------------------------
+[template.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/TI/MyProjects/babicz/Template/Debug" -d"_DEBUG" -@"Debug.lkf" "template.c"
+"template.c", line 90: warning: statement is unreachable
+"template.c", line 63: warning: variable "msec" was declared but never referenced
+
+Warning: The project has no cmd file while the Text Linker is selected
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+>> warning: entry point symbol _c_int00 undefined
+
+undefined                        first referenced
+ symbol                              in file
+---------                        ----------------
+_DSK6713_init                    C:\TI\MyProjects\babicz\Template\Debug\template.obj
+_DSK6713_AIC23_write             C:\TI\MyProjects\babicz\Template\Debug\template.obj
+_DSK6713_AIC23_openCodec         C:\TI\MyProjects\babicz\Template\Debug\template.obj
+>>   error: symbol referencing errors - './Debug/template.out' not built
+
+>> Compilation failure
+
+Build Complete,
+  2 Errors, 4 Warnings, 0 Remarks.

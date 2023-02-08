@@ -1,0 +1,107 @@
+******************************************************************************
+          TMS320C6x COFF Linker PC v5.1.0                      
+******************************************************************************
+>> Linked Wed Aug 17 13:13:37 2016
+
+OUTPUT FILE NAME:   <./Debug/template.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000000
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.switch    0    00000004    00000000     UNINITIALIZED
+
+.const     0    00000008    00000000     UNINITIALIZED
+
+.data      0    00000008    00000000     UNINITIALIZED
+
+.bss       0    00000008    00000000     UNINITIALIZED
+
+.pinit     0    00000008    00000000     UNINITIALIZED
+
+.stack     0    00000008    00000000     UNINITIALIZED
+
+.sysmem    0    00000008    00000000     UNINITIALIZED
+
+.cio       0    00000008    00000000     UNINITIALIZED
+
+.text      0    00000020    00000100     
+                  00000020    00000100     template.obj (.text)
+
+.cinit     0    00000120    000000fc     
+                  00000120    000000f8     template.obj (.cinit)
+                  00000218    00000004     --HOLE-- [fill = 0]
+
+.far       0    00000220    000000e8     UNINITIALIZED
+                  00000220    000000e8     template.obj (.far)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000008   $bss
+00000008   .bss
+00000008   .data
+00000020   .text
+UNDEFED _DSK6713_AIC23_openCodec
+UNDEFED _DSK6713_AIC23_write
+UNDEFED _DSK6713_init
+ffffffff   ___binit__
+00000008   ___bss__
+ffffffff   ___c_args__
+00000120   ___cinit__
+00000008   ___data__
+00000008   ___edata__
+00000008   ___end__
+00000120   ___etext__
+ffffffff   ___pinit__
+00000020   ___text__
+UNDEFED _c_int00
+00000220   _config
+00000020   _main
+00000248   _sinetable
+ffffffff   binit
+00000120   cinit
+00000008   edata
+00000008   end
+00000120   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000008   ___edata__
+00000008   ___data__
+00000008   ___bss__
+00000008   end
+00000008   edata
+00000008   ___end__
+00000008   .data
+00000008   .bss
+00000008   $bss
+00000020   .text
+00000020   _main
+00000020   ___text__
+00000120   etext
+00000120   cinit
+00000120   ___etext__
+00000120   ___cinit__
+00000220   _config
+00000248   _sinetable
+ffffffff   pinit
+UNDEFED _DSK6713_init
+ffffffff   ___binit__
+ffffffff   binit
+ffffffff   ___pinit__
+UNDEFED _DSK6713_AIC23_openCodec
+ffffffff   ___c_args__
+UNDEFED _DSK6713_AIC23_write
+UNDEFED _c_int00
+
+[27 symbols]
